@@ -88,8 +88,8 @@
 .legal-area-card{
     width: 400px;
     height: 500px;
-    text-align: center;
-    align-items: center;
+    /* text-align: center;
+    align-items: center; */
     border-bottom: 2px solid #E7E7E7;
     border-right: 2px solid #E7E7E7 ;
 }
@@ -101,11 +101,13 @@
 }
 
 .card-info{
-    /* width: 258px;
-    height: 130px; */
+    width: 258px;
+    height: 130px;
     font-size: 16;
     line-height: 26px;
     color: #707070;
+    padding: 0;
+    margin: 0 auto;
 }
 
 .legal-area-card img{
