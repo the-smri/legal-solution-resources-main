@@ -72,3 +72,27 @@
     border: none;
     border-radius: 8px;
 }
+
+/* Cards Styles */
+.legal-area-cards{
+    max-width: 1170px;
+    margin: 170px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.legal-area-card{
+    text-align: center;
+}
+.card-title{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.card-info{
+    /* width: 258px;
+    height: 130px; */
+    font-size: 16;
+    line-height: 26px;
+    color: #707070;
+}
