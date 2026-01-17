@@ -79,14 +79,25 @@
     margin: 170px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: #E7E7E7;
 }
 
 .legal-area-card{
+    width: 400px;
+    height: 500px;
     text-align: center;
+    align-items: center;
+    border-bottom: 2px solid #E7E7E7;
+    border-right: 2px solid #E7E7E7 ;
 }
 .card-title{
     font-size: 32px;
     font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 24px;
 }
 
 .card-info{
@@ -95,4 +106,8 @@
     font-size: 16;
     line-height: 26px;
     color: #707070;
+}
+
+.legal-area-card img{
+    padding-top: 56px;
 }
