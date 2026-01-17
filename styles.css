@@ -48,9 +48,27 @@
 }
 
 .banner-title{
+    padding: 104px 263px 0 239px;
     font-size: 72px;
     color: white;
     text-align: center;
 }
-    
-    
+
+.banner-description{
+    color: white;
+    text-align: center;
+    margin: 24px 0;
+}
+
+.banner-search-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.input-text{
+    width: 500px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+}
